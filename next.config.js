@@ -1,4 +1,6 @@
 module.exports = {
+	output: 'export',
+	reactStrictMode: true,
 	webpack: (cfg) => {
 		cfg.module.rules.push(
 			{
